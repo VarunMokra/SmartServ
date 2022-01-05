@@ -1,0 +1,15 @@
+<body>
+    <table border="1">
+        <tr>
+            <th><strong>Title</strong></th>
+            <th><strong>Price</strong></th>
+        </tr>
+        {% for i in listOfProducts %}
+        <tr>
+            <th>{{i[0]}}</th>
+            <th>{{i[1]}}</th>
+        {% endfor %}
+        </tr>
+    </table>
+
+</body>
